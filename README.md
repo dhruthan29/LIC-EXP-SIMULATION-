@@ -1,37 +1,110 @@
 # LIC-EXP-SIMULATION-
 Linear integrated circuit 
-# EXPERIMENT 1
+# # EXPERIMENT-1
 Question: Given the power as P=100µw, Perform AC, DC and Transient analysis for the given circuit design by using Ltspice simulator.
-# Circuit Diagram
-https://private-user-images.githubusercontent.com/198857473/413593641-0b661ae7-5761-4b9b-bd75-93c0fc60eabb.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzk4MDc3MTAsIm5iZiI6MTczOTgwNzQxMCwicGF0aCI6Ii8xOTg4NTc0NzMvNDEzNTkzNjQxLTBiNjYxYWU3LTU3NjEtNGI5Yi1iZDc1LTkzYzBmYzYwZWFiYi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMjE3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDIxN1QxNTUwMTBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT03YzkwMTU5YjM4MTJiNzI4YjcxZDlmY2MwNzIyNzVmZTNmYjEwNDAzZTNmYmJiZThlMjc4NmFkM2QzZGIyYzc0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.C8l0VM-gQFb1ObgX3AHOxFXacdyLoq_Tm0qAYQlPuRE
 
-PROCEDURE:
-BY using the power formula P=V*I we get the drain current as, Id=5.55e-005A
+### CIRCUIT DIAGRAM-1 :
 
-# 1. DC Analysis
+![Capture](https://github.com/user-attachments/assets/502293a1-3c00-4db0-84ed-ca37947585df)
+
+### PROCEDURE:
+BY using the power formula P=V*I 
+we get the drain current as,
+Id=5.55e-005A
+#### 1. DC Analysis
 Go to simulate, Select the dc output print and the run the simulation.
-https://private-user-images.githubusercontent.com/198857818/413620482-ef924102-e523-4182-a514-e4dd73970e36.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzk4MDc1NjcsIm5iZiI6MTczOTgwNzI2NywicGF0aCI6Ii8xOTg4NTc4MTgvNDEzNjIwNDgyLWVmOTI0MTAyLWU1MjMtNDE4Mi1hNTE0LWU0ZGQ3Mzk3MGUzNi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMjE3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDIxN1QxNTQ3NDdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hNjM1MGE5ZTcxZDRiNjQ5ZGNlNTliNDhiMzNjMzAxN2I3YzAzMjA4ZGU5YzY0NjYyY2Q0OGI2OTQ4ZmQ0YTI2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.wJeEywVoezmQxF4YTA4NDwTDE3dQhx-LbH8NXETXY64
+
+![image](https://github.com/user-attachments/assets/ef924102-e523-4182-a514-e4dd73970e36)
+
 This figure shows the output of dc analysis
-https://private-user-images.githubusercontent.com/198857818/413631795-11e5cc97-94ec-408a-bf4c-c5c8ad44dd46.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzk4MDc1NjcsIm5iZiI6MTczOTgwNzI2NywicGF0aCI6Ii8xOTg4NTc4MTgvNDEzNjMxNzk1LTExZTVjYzk3LTk0ZWMtNDA4YS1iZjRjLWM1YzhhZDQ0ZGQ0Ni5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMjE3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDIxN1QxNTQ3NDdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xMzliOTVkYTc5YjFlMmIwMDYyNjg1NjNhZTEzNWQ3MzcyZDIxZGQ0MWE3MDE0MWZiMzlhNWNjN2UxYzBjNTA4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.cvX12r9TR45N4DJXFyYsIu9VN_anFy3S0VjMW0LZYI4
-# 2. AC Analysis
+ 
+  ![image](https://github.com/user-attachments/assets/11e5cc97-94ec-408a-bf4c-c5c8ad44dd46)
+
+
+#### 2. AC Analysis
 Go to simulate, Select the ac analysis, Give the values as shown below and run the simulation.
-https://private-user-images.githubusercontent.com/198857818/413625111-a0f7da9d-3529-4060-b0c1-7669947a6c04.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzk4MDc1NjcsIm5iZiI6MTczOTgwNzI2NywicGF0aCI6Ii8xOTg4NTc4MTgvNDEzNjI1MTExLWEwZjdkYTlkLTM1MjktNDA2MC1iMGMxLTc2Njk5NDdhNmMwNC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMjE3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDIxN1QxNTQ3NDdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05N2EzYmNmMTM4MzUwMzU4NWE0ODU3YTg0NWFhM2ExNDk2MTVkZmUwOWRmMDNiNzYzYWFkYjQyY2YxOThjMWNlJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.UNDXLuQYxxGlefVcxKTTPjFOVPMwvhuy9qONUdnu-Zs
-# Below graph shows the output of the AC analysis.
 
-https://private-user-images.githubusercontent.com/198857818/413625223-b547e04e-196e-47fd-8797-e1cc9ba7eb9c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzk4MDc1NjcsIm5iZiI6MTczOTgwNzI2NywicGF0aCI6Ii8xOTg4NTc4MTgvNDEzNjI1MjIzLWI1NDdlMDRlLTE5NmUtNDdmZC04Nzk3LWUxY2M5YmE3ZWI5Yy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMjE3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDIxN1QxNTQ3NDdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0xMGIyYzU4MGE5YjcxMGE5MjNlZjY5NWVhYzIxMjVmOGMzM2MzYWU5NzI4YTMxM2QzZDkwM2MwMGJiMTVlMDA2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.wAlxC9aAizxHZJ8YNl61PNUUfAeJ99EGBkEWO9OxmHU
-# 3. Transient Analysis
-Go to simulate, Set the stop time as 1ms and run the simulation. The below graph shows the output of transient analysis.
-https://private-user-images.githubusercontent.com/198857818/413625507-eee3db42-638e-430f-9aaf-1dd7c4141f70.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3Mzk4MDc1NjcsIm5iZiI6MTczOTgwNzI2NywicGF0aCI6Ii8xOTg4NTc4MTgvNDEzNjI1NTA3LWVlZTNkYjQyLTYzOGUtNDMwZi05YWFmLTFkZDdjNDE0MWY3MC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwMjE3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDIxN1QxNTQ3NDdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0zOTczMWQxMWI4NDBkZjQ4ZTg4ZmFiNjU5NmMwNDYzZDZhYmNmMTFmYzhiZWM5NDU2Mzk2YmE4YTNhMGUyY2JmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.z03LIvgzgp90uoaubP4sa-ZciXTgXfraPHgNZ4n-X4w
-# RESULT:
-got the calculated drain current=5.55e-005 in DC analysis output by calculating the NMOS length=175nm and width=178nm.
-The circuit maintains its performance across the tested frequency range.
-The circuit reacts well to changes and conforming its stability.
- # INFERENCE:
-Drain current indicates whether MOSFET is in sturation region.
-The regions of the MOSFET depends on VGS value.
-Coupling and bypass capacitors affect the frequency response.
-Gain depends on the MOSFET parameters.
-To simulate add a Specific components library files to simulated software.
-Adjust the length and width of the MOSFET to get calculated drain current value in simulation.
+![image](https://github.com/user-attachments/assets/a0f7da9d-3529-4060-b0c1-7669947a6c04)
 
+Below graph shows the output of the AC analysis.
 
+![image](https://github.com/user-attachments/assets/b547e04e-196e-47fd-8797-e1cc9ba7eb9c)
+
+#### 3. Transient Analysis
+Go to simulate, Set the stop time as 1ms and run the simulation.
+The below graph shows the output of transient analysis.
+
+![image](https://github.com/user-attachments/assets/eee3db42-638e-430f-9aaf-1dd7c4141f70)
+
+### RESULT:
+* got the calculated drain current=5.55e-005 in DC analysis output by calculating the NMOS length=175nm and width=178nm.
+* The circuit maintains its performance across the tested frequency range.
+* The circuit reacts well to changes and conforming its stability.
+
+### INFERENCE:
+* Drain current indicates whether MOSFET is in sturation region.
+* The regions of the MOSFET depends on VGS value.
+* Coupling and bypass capacitors affect the frequency response.
+* Gain depends on the MOSFET parameters.
+* To simulate add a Specific components library files to simulated software.
+* Adjust the length and width of the MOSFET to get calculated drain current value in simulation.
+
+### CIRCUIT DIAGRAM-2:
+
+![image](https://github.com/user-attachments/assets/aa571835-21ea-4ca5-942e-f7bcbca4cc25)
+
+### PROCEDURE
+#### 1. DC Sweep analysis
+This analysis used to find the vin value.
+Go to simulate, Select a dc sweep analysis, Give the values as shown below and run the simulation.
+
+![image](https://github.com/user-attachments/assets/33d5b92c-a501-43eb-a134-30cc05e216e1)
+
+Below graph shows the VTC curve and the value of vin as 0.8v
+
+![image](https://github.com/user-attachments/assets/c9c9e3d4-0a57-4356-b84d-8a821b9c8448)
+
+Now give the input as 
+
+![image](https://github.com/user-attachments/assets/bb1c591b-4d3a-4344-b2f2-80372af8567a)
+
+The length and width of the NMOS and PMOS tranistor as shown in the below figure
+
+![image](https://github.com/user-attachments/assets/283c39f0-5eea-4292-a833-91b5da308a6b)
+
+![image](https://github.com/user-attachments/assets/3641668c-d141-48e5-b0e2-aac11a9b014c)
+
+#### 2. DC Analysis
+Go to simulate, Select the dc output print and the run the simulation.
+
+![image](https://github.com/user-attachments/assets/daef7b7e-e64c-4510-8f23-e55121daa510)
+
+#### 3. AC Analysis
+Go to simulate, Select the ac analysis, Give the values as shown below and run the simulation.
+
+![image](https://github.com/user-attachments/assets/6d629781-a005-40d2-87f3-e2b178e2ad4c)
+
+Below graph shows the output of the AC analysis.
+
+![image](https://github.com/user-attachments/assets/cbcdaa25-38e7-4266-8034-4108e9402a90)
+
+#### 4. Transient analysis
+Go to simulate, Set the stop time as 1ms and run the simulation.
+The below graph shows the output of transient analysis.
+
+![image](https://github.com/user-attachments/assets/c0f8f7c7-ed03-4867-8433-047d7c474862)
+
+### RESULT:
+* By varying the channel dimensions (L,W) of both MOSFET (M1 & M2), The desired currnt was achived at
+   1. M1: L=500nm, W=950nm.
+   2. M2: L=300nm, W=1020nm.
+* The gain is 3.8dB and phase shift  which is nealy 180 degree align with theoretical expectations.
+* The circuit responds effectively to input variations, indicating stable operation.
+
+### INFERENCE:
+* By DC sweep analysis, get the input DC voltsge.
+* By varying the MOSFET dimensions, Get the calculated drain currnt value in simulation.
+* Vary both MOSFET(M1 & M2) to get the calculated drain current.
+* Set the AC amplitude as 1 in the AC analysis.
+* In DC sweep analysis we get the VTC curve at output.
+*
