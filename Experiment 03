@@ -1,0 +1,38 @@
+W=8.23uM
+
+L=180nM
+![Screenshot 2025-03-05 193139](https://github.com/user-attachments/assets/bd8e3a6f-702f-4d57-8d24-b124f04c8000)
+# DC Analysis
+![Screenshot 2025-03-05 193210](https://github.com/user-attachments/assets/b1cb5cd3-1ed7-4ea4-9a6d-af777f81d4de)
+# Transient Analysis
+![Screenshot 2025-03-05 193922](https://github.com/user-attachments/assets/572db2d3-4e89-4072-8473-47d856a9c7f7)
+# AC Analysis
+![Screenshot 2025-03-05 205858](https://github.com/user-attachments/assets/5c79f48d-e8d8-45de-873d-d7235a582c0d)
+# Circuit 3
+# DC Analysis
+![Screenshot 2025-03-05 211448](https://github.com/user-attachments/assets/9e69cb36-5365-4c12-b0ba-d9df618cf42c)
+# Transient Analysis
+![Screenshot 2025-03-05 190344](https://github.com/user-attachments/assets/5f7afe01-e0a5-4f0e-8f21-15e6f908d3ce)
+# AC Analysis
+![Screenshot 2025-03-05 205858](https://github.com/user-attachments/assets/ce83c09f-69a4-44ef-8b99-3795bee5d4b7)
+
+
+
+# INFERENCE
+.For a differential amplifier to work properly, you need to set the MOSFETs in their active region (saturation region for long-channel MOSFETs). This typically involves proper sizing of resistors, current sources, and gate voltages
+. Varry the MOSFET length and width (m1&m2)get calculated id current in dc analysis
+.set the Ac amplitude as 1 in the ac analysis
+. From the frequency response, you can determine the bandwidth of the differential amplifier by identifying the frequency
+Differential Gain: It's like a magnifying glass for differences. It makes the tiny differences between two signals much easier to see.
+
+Common-Mode Rejection: Think of noise-canceling headphones. They block out background noise and let you hear the important sounds clearly.
+
+Biasing and Stability: Imagine balancing a seesaw perfectly so it stays level. Proper biasing keeps everything balanced, and stability ensures it stays that way over time.
+
+Practical Limitations: In real life, nothing is perfect. Small variations in components can lead to minor differences in performance, just like using slightly different ingredients in a recipe can change the final dish a bit.
+# RESULT
+.By varrying Mosfet width and length we get id current 0.45mA
+m1 and m2 L=180nm w=7.8nm
+.RSS value 777ohm and rd=3.3kohm
+: A flat gain curve around the middle frequencies, e.g., gain might be around 20 dB in the mid-frequency range.
+The input signals Vin1 and Vin2 might look like sinusoidal waves with small differences.
