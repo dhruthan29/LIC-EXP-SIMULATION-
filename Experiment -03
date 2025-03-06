@@ -7,7 +7,7 @@
 
 3)DC Power supply (3.2V,1.6V),
 
-4)Current source (1 mA).
+4)Current source (1 mA)
 
 Theory
 A Differential amplifier takes two input signals and amplifies the difference between them, Ignoring anything that's the same in both signals. It's like tuning out the background noise and focusing on the unique parts of a conversation.This makes it super useful for things like measuring tiny differences in voltages in sensitive electronic equipment.
